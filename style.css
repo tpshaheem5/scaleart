@@ -6,24 +6,54 @@
     height: 90vh;
     align-items: center
 }
+.section{
+    background-color: #678286;
+}
 
 .service {
-    background-color: #C3946A;
-    color: #282828;
+    background-color: #fff;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .service:hover {
-    background-color: #282828;
-    color: #C3946A;
+    background-color: #c8d5d8;
+    color: black;
 }
-.about {
-    background-color: #282828;
+.service1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: #fff;
 }
+.work1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.about1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+
+}
+.about2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+}
+.contact1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.section2{
+    background-color: #fff;
+}
+.about {
+    background-color: #678286;
+    color: black;
+}
 .about h1{
-    color: #C3946A;
+    color: #fff;
 }
 
 .aboutlogo{
     height: 5em;
     width: 30em;
+}
+.footer1{
+    background-color: #678286;
 }
