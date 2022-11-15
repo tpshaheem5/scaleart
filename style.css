@@ -7,7 +7,7 @@
 }
 
 .bgImage {
-    height: 90vh;
+    height: 94vh;
     align-items: center
 }
 .section{
@@ -91,6 +91,7 @@
 
   .btn-submit{
     background-color: #678286;
+    
   }
   .logo{
     width: 400px;
