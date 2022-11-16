@@ -3,7 +3,13 @@
 }
 .navbar{
     background-color: #678286;
-    color: black;
+    color: #fff;
+}
+
+.landpage{
+    margin-top: 200px;
+    margin-bottom: 450px;
+    
 }
 
 .bgImage {
@@ -60,6 +66,9 @@
 }
 .footer1{
     background-color: #678286;
+}
+.footer-copyright{
+    justify-content: center;
 }
 
 .map{
