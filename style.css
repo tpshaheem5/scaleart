@@ -6,15 +6,10 @@
     color: #fff;
 }
 
-.landpage{
-    margin-top: 200px;
-    margin-bottom: 450px;
-    
-}
 
-.bgImage {
-    height: 94vh;
-    align-items: center
+.bg-img{
+    height: 91vh;
+    align-items: center;
 }
 .section{
     background-color: #678286;
@@ -88,21 +83,71 @@
 }
 .gallery {
     overflow: hidden;
-  }
+    max-width: 100%;
+    height: auto;
+}
+
   
   .gallery img {
     transition: all 1s ease;
-  }
+}
   
   .gallery:hover img {
     transform: scale(1.1);
-  }
+}
 
-  .btn-submit{
+.btn-submit{
     background-color: #678286;
     
-  }
+}
   .logo{
     width: 400px;
     height: 300px;
-  }
+}
+  .card1{
+    border: none;
+    outline: none;
+    box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.75);
+}
+  .card{
+    border: none;
+    outline: none;
+    box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.75);
+}
+.card p{
+    color: gray;    
+}
+.circle{
+    height: 70px;
+    width: 70px;
+    background-color: rgb(228,220,220);
+    color: black;
+    padding: 12px;
+    font-size: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.card:hover .circle{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+
+}
+.font1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.bg-img:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom right, #000000, #000000);
+    opacity: .6;    
+}
