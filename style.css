@@ -29,20 +29,21 @@
     color: #fff;
 }
 .work1{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    font-weight: 900;
+    color:  #003333;
 }
-.about1{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    
 
-}
 .about2{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #fff;
 }
 .contact1{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    font-weight: 900;
+    color:  #003333;
 }
+
 
 .section2{
     background-color: #fff;
@@ -53,9 +54,11 @@
 }
 .about h1{
     color: #FF9900;
+    font-size: 3rem;
+    font-weight: 900;
 }
 .footer1{
-    background-color: #678286;
+    background-color:  #003333;
 }
 .footer-copyright{
     justify-content: center;
@@ -92,7 +95,7 @@
 }
 
 .btn-submit{
-    background-color: #678286;
+    background-color:  #003333;
     
 }
   .logo{
@@ -120,7 +123,7 @@
     height: 70px;
     width: 70px;
     background-color: rgb(228,220,220);
-    color: black;
+    color:  #003333;
     padding: 12px;
     font-size: 30px;
     border-radius: 50%;
@@ -131,10 +134,14 @@
     background-color: black;
     color: white;
     transition: 0.5s;
-
+}
+.h12{
+    color: #003333;
 }
 .font1{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    font-weight: 900;
+    color:  #003333;
 }
 .bg-img:before{
     content: '';
