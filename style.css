@@ -2,8 +2,11 @@
     width: 150px;
 }
 .navbar{
-    background-color: #678286;
+    background-color: #003333;
     color: #fff;
+}
+.navbar-nav{
+    font-weight: bold;
 }
 
 

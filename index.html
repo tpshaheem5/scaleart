@@ -21,7 +21,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse justify-content-start justify-content-lg-end " id="navbarNav">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav text-center">
           
           <li class="nav-item">
             <a class="nav-link" href="#home-section">Home</a>
@@ -47,7 +47,7 @@
 
   </header>
 
-  <section id="home-section"style="padding-top: 55px">
+  <section id="home-section" style="padding-top: 8vh;">
 
     <div class="view bg-img img-fluid " style="background-image: url('img/land.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
       <!-- Mask & flexbox options-->
@@ -60,7 +60,7 @@
             <div class="col-md-12  white-text text-center pt-5  mt-5">
               <h1 class="h1-reponsive white-text text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 wow fadeInDown text-white" data-wow-delay="0.3s" data-aos="fade-left" data-aos-duration="2000"><strong>Scale art builders</strong></h1>
               <hr class="hr-light my-4 wow fadeInDown" data-wow-delay="0.4s">
-              <h5 class="h5-responsive mb-4 white-text wow fadeInDown text-white" data-wow-delay="0.4s" data-aos="fade-right" data-aos-duration="2000"><strong> comprehensive construction management team and general contractor.</strong></h5>
+              <h5 class="h5-responsive mb-4 white-text wow fadeInDown text-white" data-wow-delay="0.4s" data-aos="fade-right" data-aos-duration="2000"><strong>Professional Design Solutions </strong></h5>
             </div>
             <!--Grid column-->
           </div>
@@ -248,7 +248,7 @@
       <h1 class="p-5 text-center about1">About Us</h1>
       <div class="row">
         <div class="col-12 about2">
-          <h5><span class="font-weight-bold">Scale art</span>  is a full-service Vancouver-based studio practice focused on modern design, interiors and landscapes. Current projects include residential and vacation homes, multi-family housing, as well as public spaces. Our work is split equally between new builds and renovations and work is well-crafted and conceptually clear architecture as an urge to react to the surrounding phisical environments -we look for progressive clients with an equal passion for design. </h5>
+          <h5><span class="font-weight-bold">Scale art</span>  is a full-service Chemmad-based studio practice focused on modern design, interiors and landscapes. Current projects include residential and vacation homes, multi-family housing, as well as public spaces. Our work is split equally between new builds and renovations and work is well-crafted and conceptually clear architecture as an urge to react to the surrounding phisical environments -we look for progressive clients with an equal passion for design. </h5>
         </div>
         
       </div>
@@ -268,14 +268,14 @@
             <div class="form-row">
               <div class="form-group col-12">
                 <label for="inputEmail4">Name</label>
-                <input type="text" class="form-control" id="inputEmail4" placeholder="Name" required>
+                <input type="text" class="form-control" id="inputEmail4" placeholder="Name" name="name" required>
               </div>
               
             </div>
             <div class="form-row">
               <div class="form-group col-md-6">
                 <label for="inputEmail4">Email</label>
-                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Email" name="email">
               </div>
               <div class="form-group col-md-6">
                 <label for="inputPassword4">Mobile</label>
@@ -299,14 +299,14 @@
         </div>
       </div>
     </div>
-    
-
   </section>
+
+
 
   <footer class="footer1 p-4">
     <div class="container-fluid">
       <div class="row justify-content-center">
-        <div class="footer-copyright text-white"> Scale Art Builders Engineers & deisign  Kodinhi,Kottathangadi,Kerala.Phone-8592039014 <i class="fa-brands fa-square-facebook"></i>
+        <div class="footer-copyright text-white"> Scale Art Builders Engineers & deisign  Kodinhi,Chemmad,Malappuram,Kerala.Phone-8592039014 <i class="fa-brands fa-square-facebook"></i>
           <i class="fa-brands fa-instagram"></i>
           <i class="fa-brands fa-square-twitter"></i> © 2022 Copyright: Designed By
           <a href="/tpshaheem5.github.io" class="text-white"> Shaheemtp</a>
@@ -322,6 +322,11 @@
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
   AOS.init();
+</script>
+<script>
+  $('.navbar-collapse a').click(function(){
+    $(".navbar-collapse").collapse('hide');
+});
 </script>
 </body>
 </html>
